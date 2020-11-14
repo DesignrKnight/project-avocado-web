@@ -10,7 +10,7 @@ jobs:
       with:
         node-version: 12.x
     - name: Install dependencies
-      run: cd client/ics-web && yarn install
+      run: cd client/ics-web && npm i
     - name: Build
       run: cd client/ics-web && npm run build
     - name: Ping FeaturePeek
